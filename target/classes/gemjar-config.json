@@ -1,0 +1,29 @@
+{
+  "environment": "prod",
+  "projectName": "APIAUTOMATION",
+
+  "gemjarSubID": "test_id",
+  "gemjarUserName": "s.mishra",
+  "gemjarToken": "1e6ef986-fa77-432a-9ed4-93bd8795ab021675316840722",
+
+  "reportLocation":"/tmp",
+  "jewelEntryUrl": "https://apis.gemecosystem.com/enter-point",
+
+  "username": "smita.mishra",
+  "prod": {
+
+    "browserName": "chrome",
+    "launchUrl": "https://www.amazon.in",
+    "browserTimeout": 100,
+    "Users": "https://gorest.co.in/public/v2/users",
+    "google_url": "https",
+    "Post": "https://apis.gemecosystem.com/user",
+    "Gett": "https://apis.gemecosystem.com/validate/username?username=user123",
+    "Login": "https://apis.gemecosystem.com/login"
+ },
+  "local": {
+  "Post": "http://localhost:8080/user",
+  "Gett": "http://localhost:8080/validate/username?username=user123",
+  "Login": "http://localhost:8080/login",
+  "Gett2": "http://localhost:8080/validate/username?username=user1234566"}
+}
